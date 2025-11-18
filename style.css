@@ -1,0 +1,136 @@
+
+/*Corpo do site*/
+body{
+    background-color: black;
+    font-family:'Arial';
+    color: white;
+}
+/*Cabeçário*/
+header{
+    text-align:center;
+    color:rgb(255, 255, 255);
+   
+}
+/*Navegador*/
+nav{
+    margin: 0;
+    padding: 0;
+    position: sticky;  
+    top: 0;             
+    z-index: 1000;
+}   
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left:8%;
+  overflow: hidden;
+  background-color:plum;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 18px;
+  padding: 14px 20px;
+  text-decoration: none;
+  
+}
+
+ul li a:hover {
+  background-color: #111111;
+  color:white;
+}
+
+
+/*Modificação do título*/
+h2{
+    text-align: center;
+}
+/*Início a página*/
+#Inicio{
+  
+    width: 95%;
+    margin:auto;
+    text-align: justify;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 15px;
+
+}
+
+/*Parte de habilidaddes onde estou fazendo uma tabela*/
+
+table{
+    border:2px solid;
+    color:white;
+    width:70%;
+    margin:auto;
+    margin-bottom: 20px;}
+td{
+    text-align: center;
+    border: 1px solid;
+    padding:10px;
+}
+th{
+    height: 60px;
+
+}
+
+
+#competencias{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+    width:95%
+}
+
+#cursos{
+    text-align:center;
+    border: 2px solid white;
+    margin:auto;
+    padding: 10px;
+    width:95%;
+}
+#projetos{
+    text-align:center;
+    border: 2px solid white;
+    margin:25px;
+    padding:10px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin:20px;
+}
+#interacao{
+    text-align: center;
+    margin:10px;
+    border: 2px solid white ;
+}
+/*Rodapé*/
+footer{
+    margin-top: 20px;
+    border:2px solid white;
+    background-color: plum;
+    height: auto;
+    color: black;
+    padding: 20px;
+
+}
+
+/*Classe bold para deixar as letras em negrito*/
+.bold{
+    font-weight: bold;
+}
